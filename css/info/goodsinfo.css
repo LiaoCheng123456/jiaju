@@ -1,0 +1,93 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 10000px;
+}
+
+
+
+/**
+广告区域
+ */
+.tyl-advertising {width: 100%;height: 40px;background: rgb(52, 52, 52);/*position: fixed !important;*/z-index: 9999;top: 0;}
+.tyl-wrapper-text {width: 64%;margin: 0 auto;color: rgb(135, 135, 135);font-size: 10px;line-height: 40px;text-align: right;}
+.tyl-wrapper-text-span {transform: scale(0.9);}
+
+
+/**
+导航栏
+ */
+#tyl-nav-bar {z-index: 1}
+.tyl-navigationbar {width: 100%;height: 44px;background: rgba(0, 0, 0, 0.8);-webkit-backdrop-filter: saturate(180%) blur(20px);backdrop-filter: saturate(180%) blur(20px);}
+.tyl-nav-list {transform:scale(0.85);cursor: default;margin: 0 auto;width: 58%;height: 44px;display: flex;justify-content: space-between;user-select: none}
+.tyl-nav-link {text-decoration: none;}
+.tyl-nav-item {list-style: none;}
+.tyl-nav-link-text {color: white;line-height: 44px;font-size: 12px;transform: scale(0.9);text-decoration: none;}
+.tyl-nav-link-text-active {color: rgb(166, 166, 166);line-height: 44px;font-size: 12px;transform: scale(0.9);text-decoration: none;}
+.tyl-nav-link-text:hover {color: rgb(166, 166, 166);}
+.tyl-nav-link img {width: 20px;height: 20px;padding-top: 60%;}
+
+
+/**
+标题
+ */
+.tyl-goods-title{width: 100%;}
+.tyl-title-wrapper{width: 60%;background:  rgba(255, 255, 255, 0.8);margin: auto;height: 60px;line-height: 62px;display: flex;justify-content: space-between;border-bottom: 1px solid #d2d2d7;}
+.tyl-title-wrapper a {color: #000000;text-decoration: none;}
+.tyl-title-list{transform:scale(0.89);display: flex;flex-direction: row;font-size: 12px;}
+.tyl-title-list li {margin: 0 20px;list-style: none;}
+.tyl-title-item:nth-child(1) {color: rgb(166, 166, 166);}
+.tyl-title-item a:hover {color: #2997FF;}
+.active {position: fixed;border-bottom: 1px solid #d2d2d7;top:0;}
+.button {border: none;width: 64px;height: 36px;background-color: #2997FF;border-radius: 30px;text-align: center;color: #fff;text-decoration: none;outline: none;}
+.button:hover {background-color: #237dd3;}
+
+
+/**
+蒙版搜索
+ */
+.search{
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    align-items: center;
+    lex-direction: row;
+}
+
+.search-button{
+    width: 400px;
+    height: 40px;
+    margin: 0 0 0 auto;
+}
+
+.search-img{
+    margin-top: 1px;
+    height: 40px;
+    width: 40px;
+    background: white;
+    margin: 1px auto 0 0;
+}
+
+.search-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.search-input{
+    font-size: 12px;
+    width: 100%;
+    height: 100%;
+    /*background: rgba(0,0,0,0.1);*/
+    text-indent: 10px;
+    border: 1px solid #000;
+    outline: none;
+    /*border-radius: 10px;*/
+}

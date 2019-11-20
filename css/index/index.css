@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*background: rgb(249,249,249);*/
+    /*height: 10000px;*/
+}
+
+/**
+广告区域
+ */
+.tyl-advertising {width: 100%;height: 40px;background: rgb(52, 52, 52);position: fixed !important;z-index: 9999;top: 0;}
+.tyl-wrapper-text {width: 64%;margin: 0 auto;color: rgb(135, 135, 135);font-size: 10px;line-height: 40px;text-align: right;}
+.tyl-wrapper-text-span {transform: scale(0.9);}
+
+
+
+/**
+导航栏
+ */
+#tyl-nav-bar {position: fixed;top: 40px; z-index: 1}
+.tyl-navigationbar {width: 100%;height: 44px;background: rgba(0, 0, 0, 0.8);-webkit-backdrop-filter: saturate(180%) blur(20px);backdrop-filter: saturate(180%) blur(20px);}
+.tyl-nav-list {transform:scale(0.85);cursor: default;margin: 0 auto;width: 58%;height: 44px;display: flex;justify-content: space-between;user-select: none}
+.tyl-nav-link {text-decoration: none;}
+.tyl-nav-item {list-style: none;}
+.tyl-nav-link-text {color: white;line-height: 44px;font-size: 12px;transform: scale(0.9);text-decoration: none;}
+.tyl-nav-link-text-active {color: rgb(166, 166, 166);line-height: 44px;font-size: 12px;transform: scale(0.9);text-decoration: none;}
+.tyl-nav-link-text:hover {color: rgb(166, 166, 166);}
+.tyl-nav-link img {width: 20px;height: 20px;padding-top: 60%;}
+
+
+
+/*
+首页主内容展示区域
+*/
+.tyl_content_wrapper {margin-top: 84px;width: 100%;background: rgb(14, 14, 14);display: flex;}
+.tyl-content-wrapper-2 {width: 100%;background: rgb(14, 14, 14);display: flex;}
+.tyl-main-1 {margin: 35px auto 0 auto;width: 90%;height: 700px;background: black;display: flex;align-items: center;}
+.tyl-main-left-wrapper {width: 50%;height: auto; /*background: dimgray;*/text-align: center;display: inline-block;align-items: center;}
+.tyl-main-left-wrapper h1 {font-size: 38px;line-height: 2.5em;font-weight: 700;letter-spacing: .074em;color: white;}
+.tyl-main-left-wrapper h3 {color: white;font-size: 20px;}
+.footnote { /*font-size: .6em;*/vertical-align: top;position: relative;width: 1px;bottom: 0.2em;}
+.tyl-rmb-text {margin-top: 1.5em;color: white; /*align-items:center;*/font-weight: 200;}
+.tyl-info-text {margin-top: 1.7em;color: #2997FF; /*align-items:center;*/font-weight: 200;font-size: 12px;}
+.tyl-info-text span, a {color: #2997FF;text-decoration: none;}
+.tyl-info-text a:hover {text-decoration: underline;color: #2997FF;}
+.tyl-buy-button {margin-top: 1.5em;}
+.button {border: none;width: 64px;height: 36px;background-color: #2997FF;border-radius: 30px;text-align: center;color: #fff;text-decoration: none;outline: none;}
+.button:hover {background-color: #237dd3;}
+.tyl-main-right-wrapper {width: 50%;height: 100%;background: #237dd3;display: flex;}
+.tyl-main-right-wrapper img { /*width: 100%;*/overflow: hidden;align-items: flex-end;border: none;}
+.tyl-info-link {display: inline-block;width: 100%;height: 100%;}
+.tyl-info-img {width: 100%;height: 100%;}
+.tyl-homepage-wrapper {background: rgb(14, 14, 14);width: 100%;display: flex;height: auto;}
+.tyl-homepage-list {width: 90%;display: flex;flex-wrap: wrap;justify-content: space-between;height: auto;margin: 40px auto;overflow: hidden;}
+.tyl-homepage-list img {width: 100%;height: 100%;}
+.tyl-homepage-item-head {width: 49%;height: 600px;background-color: #000;}
+.tyl-homepage-item {width: 49%;height: 600px;margin-top: 30px;background-color: #000;}
+.tyl-buy-wrapper {width: 100%;height: auto; /*background: dimgray;*/text-align: center;display: inline-block;align-items: center;}
+.tyl-buy-wrapper h1 {font-size: 38px;line-height: 2.5em;font-weight: 700;letter-spacing: .074em;color: white;}
+.tyl-homepage-one-buy {background: #000;width: 100%;display: flex;align-items: center;height: 400px;margin: auto;}
+.tyl-buy-wrapper h3 {color: white;font-size: 20px;}
+
+
+
+
+/**
+第二个推荐页面
+ */
+
+/*
+首页主内容展示区域.tyl-main-right-wrapper img
+*/
+.tyl_content_wrapper-write{width: 100%;background: rgb(255, 255, 255);display: flex;}
+.tyl-content-wrapper-3 {width: 100%;background: rgb(255, 255, 255);display: flex;}
+.tyl-main-2 {margin: 35px auto 0 auto;width: 90%;height: 700px;background: rgb(239, 239, 239);display: flex;align-items: center;}
+.tyl-main-left-wrapper-write {width: 50%;height: auto; /*background: dimgray;*/text-align: center;display: inline-block;align-items: center;}
+.tyl-main-left-wrapper-write h1 {font-size: 38px;line-height: 2.5em;font-weight: 700;letter-spacing: .074em;color: black;}
+.tyl-main-left-wrapper-write h3 {color: black;font-size: 20px;}
+.footnote { /*font-size: .6em;*/vertical-align: top;position: relative;width: 1px;bottom: 0.2em;}
+.tyl-main-left-wrapper-write .tyl-rmb-text {margin-top: 1.5em;color: black; /*align-items:center;*/font-weight: 200;}
+.tyl-main-left-wrapper-write .tyl-info-text {margin-top: 1.7em;color: #2997FF; /*align-items:center;*/font-weight: 200;font-size: 12px;}
+.tyl-main-left-wrapper-write .tyl-info-text span, a {color: #2997FF;text-decoration: none;}
+.tyl-info-text a:hover {text-decoration: underline;color: #2997FF;}
+.tyl-buy-button {margin-top: 1.5em;}
+.button {border: none;width: 64px;height: 36px;background-color: #2997FF;border-radius: 30px;text-align: center;color: #fff;text-decoration: none;outline: none;}
+.button:hover {background-color: #237dd3;}
+.tyl-main-right-wrapper {width: 50%;height: 100%;background: #237dd3;display: flex;}
+.tyl-main-right-wrapper img { /*width: 100%;*/overflow: hidden;align-items: flex-end;border: none;}
+.tyl-info-link {display: inline-block;width: 100%;height: 100%;}
+.tyl-info-img {width: 100%;height: 100%;}
+.tyl-homepage-wrapper-write {background: rgb(255, 255, 255);width: 100%;display: flex;height: auto;}
+.tyl-homepage-list {width: 90%;display: flex;flex-wrap: wrap;justify-content: space-between;height: auto;margin: 40px auto;overflow: hidden;}
+.tyl-homepage-list img {width: 100%;height: 100%;}
+.tyl-homepage-item-head {width: 49%;height: 600px;background-color: #000;}
+.tyl-homepage-item {width: 49%;height: 600px;margin-top: 30px;background-color: #000;}
+.tyl-buy-wrapper-write {width: 100%;height: auto; /*background: dimgray;*/text-align: center;display: inline-block;align-items: center;}
+.tyl-buy-wrapper-write h1 {font-size: 38px;line-height: 2.5em;font-weight: 700;letter-spacing: .074em;color: #000;}
+.tyl-homepage-one-buy-write {background: rgb(239, 239, 239);width: 100%;display: flex;align-items: center;height: 400px;margin: auto;}
+.tyl-buy-wrapper-write h3 {color: #000;font-size: 20px;}
+.tyl-buy-wrapper-write .tyl-rmb-text {margin-top: 1.5em;color: black; /*align-items:center;*/font-weight: 200;}
+
+
+
+/**
+区别
+ */
+.tyl-choose-wrapper {background: rgb(255, 255, 255);width: 100%;display: flex;height: auto;}
+.tyl-choose{width: 60%;height: 400px; /*background-color: black;*/margin: auto;display: flex;align-items: center;}
+.tyl-choose-left{width: 50%;
+    height: auto;color: black;}
+.tyl-choose-left h1 {font-weight: 400;font-size: 36px;letter-spacing: .074em;line-height: 1.5em;}
+.tyl-info-text-choose {margin-top: 1.7em;color: #2997FF; /*align-items:center;*/font-weight: 200;font-size: 14px;}
+.tyl-info-text-choose span, a {color: #2997FF;text-decoration: none;}
+.tyl-info-text-choose a:hover {text-decoration: underline;color: #2997FF;}
+.tyl-choose-right{width: 50%;height: 100%;}
+.tyl-choose-right img {height: 100%;width: 100%;align-self: flex-end;}
+
+
+/**
+底部
+ */
+.tyl-footer{
+    width: 100%;
+    background: rgb(239, 239, 239);
+    padding-top: 20px;
+}
+
+.tyl-footer-content{
+    transform: scale(0.92);
+    width: 60%;
+    height: 100%;
+    /*background: white;*/
+    margin: auto;
+}
+
+.tyl-footer-wrapper{
+    border-bottom: 1px solid rgb(161, 159, 160);
+}
+
+.tyl-footer-item{
+    list-style: none;
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(124,124,124);
+    font-weight: 100;
+    padding-bottom: 1.6em;
+}
+
+hr{
+    height: 1px;
+}
+
+.tyl-footer-link-wrapper{
+    font-size: 12px;
+}
+
+.tyl-footer-link-wrapper{
+    width: 100%;
+    line-height: 1.33337;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 1em;
+}
+
+.tyl-footer-label{
+    margin-top: .8em;
+}
+
+.tyl-footer-label h3 {
+    font-size: 12px;
+
+    letter-spacing:.12em;
+}
+
+.tyl-footer-label a {
+    font-size: 12px;
+    letter-spacing:.12em;
+}
+
+.tyl-footer-link-list{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.tyl-footer-text {margin-top: .7em;color:rgb(124,124,124); /*align-items:center;*/font-weight: 200;font-size: 12px;}
+.tyl-footer-text span, a {color: rgb(124,124,124);text-decoration: none;}
+.tyl-footer-text a:hover {text-decoration: underline;color: rgb(124,124,124);}
+
+.tyl-footer-base{
+    padding-top: 30px;
+}
+
+.tyl-footer-base-text{
+    font-size: 12px;
+    width: 100%;
+    border-bottom: 1px solid rgb(161, 159, 160);
+    padding-bottom: 5px;
+
+}
+
+.tyl-footer-base-text-p{
+    color: rgb(124,124,124);
+}
+.tyl-footer-jurisdiction{
+    font-size: 12px;
+    width: 100%;
+    padding-top: 5px;
+}
+
+.tyl-footer-text-a {
+    border-right: 1px solid #d2d2d7;
+    margin-right: 7px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-top: 5px;
+    white-space: nowrap;
+}
+
+
+.tyl-footer-text-span{
+    color:rgb(124,124,124);
+}
+
+.tyl-footer-beian{
+
+    font-size: 12px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.tyl-footer-beian span, a {color: rgb(124,124,124);text-decoration: none;}
+.tyl-footer-beian a:hover {text-decoration: underline;color: rgb(124,124,124);}
+.tyl-footer-jurisdiction span, a {color: rgb(124,124,124);text-decoration: none;}
+.tyl-footer-jurisdiction a:hover {text-decoration: underline;color: rgb(124,124,124);}
+
+
+
+
+/**
+蒙版搜索
+ */
+.search{
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    align-items: center;
+    lex-direction: row;
+}
+
+.search-button{
+    width: 400px;
+    height: 40px;
+    margin: 0 0 0 auto;
+}
+
+.search-img{
+    margin-top: 1px;
+    height: 40px;
+    width: 40px;
+    background: white;
+    margin: 1px auto 0 0;
+}
+
+.search-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.search-input{
+    font-size: 12px;
+    width: 100%;
+    height: 100%;
+    /*background: rgba(0,0,0,0.1);*/
+    text-indent: 10px;
+    border: 1px solid #000;
+    outline: none;
+    /*border-radius: 10px;*/
+}
+
